@@ -4,7 +4,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 
-CORS(app, origins=["http://192.168.1.7:3000"])
+CORS(app, origins=["http://192.168.38.158:3000"])
 
 app.register_blueprint(chatbot, url_prefix='/chatbot')
 
